@@ -11,11 +11,11 @@
     <meta name="author" content="">
     <link href="assets/img/logo/logo.png" rel="icon">
     <title>Login</title>
-    <link href="../src/views/assets/vendor/fontawesome-free/css/all.min.css"
+    <link href="./src/views/assets/vendor/fontawesome-free/css/all.min.css"
         rel="stylesheet" type="text/css">
-    <link href="../src/views/assets/vendor/bootstrap/css/bootstrap.min.css"
+    <link href="./src/views/assets/vendor/bootstrap/css/bootstrap.min.css"
         rel="stylesheet" type="text/css">
-    <link href="../src/views/assets/css/ruang-admin.min.css" rel="stylesheet">
+    <link href="./src/views/assets/css/ruang-admin.min.css" rel="stylesheet">
 
 </head>
 
@@ -33,7 +33,7 @@
                                         <h1 class="h4 text-gray-900 mb-4">Login</h1>
                                     </div>
 
-                                    <form class="user" action="../src/funcoes/login.php" method="POST">
+                                    <form class="user" action="./funcoes/login.php" method="POST">
 
                                         <div class="form-group">
                                             <input type="email" class="form-control" id="email"
@@ -69,10 +69,10 @@
         </div>
     </div>
     <!-- Login Content -->
-    <script src="../src/views/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="../src/views/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../src/views/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="../src/views/assets/js/ruang-admin.min.js"></script>
+    <script src="./src/views/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./src/views/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./src/views/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="./src/views/assets/js/ruang-admin.min.js"></script>
 </body>
 
 </html>
